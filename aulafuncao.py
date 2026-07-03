@@ -18,3 +18,11 @@ def somar(a, b):
 resultado = somar(5, 3)
 print(f"A soma é {resultado}")
 
+#FUNÇÃO COM VARIOS PARAMETROS
+def calcular_media(n1, n2, n3):
+    media = (n1 + n2 + n3) / 3
+    return media
+
+#CHAMANDO A FUNÇÃO
+resultado = calcular_media(8, 9, 7)
+print(f"A média é {resultado:.2f}")
