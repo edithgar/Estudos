@@ -5,5 +5,4 @@ print(f"Bom dia, {nome}!")
 
 print (f"Você tem {idade} anos!")
 
-
                   
